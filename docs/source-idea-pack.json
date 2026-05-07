@@ -1,0 +1,83 @@
+{
+  "nonPickupRank": 29,
+  "nonPickupTier": "P1",
+  "nonPickupScore": 62,
+  "nonPickupDomain": "AdobePlugin",
+  "nonPickupIdeaNo": 11,
+  "nonPickupIdeaName": "収録・リップシンク検品パネル",
+  "nonPickupRepository": "recording-lipsync-qa-panel",
+  "nonPickupPublishTarget": "BOOTH / GitHub Release",
+  "searchOrder": [
+    "D:\\AI\\AdobePlugin\\created_idea_011_recording-lipsync-qa-panel",
+    "D:\\AI\\AdobePlugin\\idea_011_recording-lipsync-qa-panel.zip",
+    "D:\\AI\\IDEAS\\AdobePlugin\\created_idea_011_recording-lipsync-qa-panel",
+    "D:\\AI\\IDEAS\\AdobePlugin\\idea_011_recording-lipsync-qa-panel.zip"
+  ],
+  "exactFolder": "D:\\AI\\AdobePlugin\\created_idea_011_recording-lipsync-qa-panel",
+  "exactFolderExists": true,
+  "exactRootZip": "D:\\AI\\AdobePlugin\\idea_011_recording-lipsync-qa-panel.zip",
+  "exactRootZipExists": false,
+  "exactFolderZip": "D:\\AI\\AdobePlugin\\created_idea_011_recording-lipsync-qa-panel\\idea_011_recording-lipsync-qa-panel.zip",
+  "exactFolderZipExists": true,
+  "ideasExactFolder": "D:\\AI\\IDEAS\\AdobePlugin\\created_idea_011_recording-lipsync-qa-panel",
+  "ideasExactFolderExists": false,
+  "ideasExactZip": "D:\\AI\\IDEAS\\AdobePlugin\\idea_011_recording-lipsync-qa-panel.zip",
+  "ideasExactZipExists": true,
+  "fallbackDomainFolders": [
+    "D:\\AI\\AdobePlugin\\created_idea_011_recording-lipsync-qa-panel"
+  ],
+  "fallbackIdeasFolders": [],
+  "selectedZip": "D:\\AI\\AdobePlugin\\created_idea_011_recording-lipsync-qa-panel\\idea_011_recording-lipsync-qa-panel.zip",
+  "selectedZipExists": true,
+  "zipRequiredFilesPresent": {
+    "metadata.json": true,
+    "README.md": true,
+    "01_REQUIREMENTS.md": true,
+    "02_SPECIFICATION.md": true,
+    "03_DESIGN.md": true,
+    "04_IMPLEMENTATION_PLAN.md": true,
+    "05_TEST_PLAN.md": true,
+    "06_RELEASE_CHECKLIST.md": true
+  },
+  "zipMetadata": {
+    "domain": "AdobePlugin",
+    "no": 11,
+    "platform": "AdobePlugin",
+    "field": "キャラクター収録",
+    "integration": "Character Animator",
+    "idea": "収録・リップシンク検品パネル",
+    "overview": "テイク、リップシンク、表情トリガー、音声同期、書き出し状態を確認する。",
+    "problem": "収録テイクと表情トリガーの確認が手作業になり、納品ミスが起きやすい。",
+    "similar": "Character Animator, Adobe Audition, Reallusion Cartoon Animator",
+    "diff": "キャラクター収録後の確認項目をタイムラインと紐づけ、再録が必要な箇所だけを一覧化する。",
+    "parent": "Plugins",
+    "startPromptFile": "START_PROMPT.md",
+    "documents": [
+      "START_PROMPT.md",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md",
+      "metadata.json"
+    ],
+    "repositoryName": "recording-lipsync-qa-panel",
+    "repositoryTitle": "recording-lipsync-qa-panel",
+    "zipFile": "idea_011_recording-lipsync-qa-panel.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataDomainMatches": true,
+  "zipMojibakeDetected": false,
+  "readmeAtTargetRepoBeforeWork": false,
+  "readmeAtTargetRepoBeforeWorkNote": "対象 repo は作業開始時点で存在しなかったため README.md も存在しない。",
+  "hostInference": {
+    "host": "CharacterAnimator",
+    "reason": "アイデア名と機能内容がリップシンク収録検品に限定され、Character Animator のテイク検品と一致するため。",
+    "officialReferences": [
+      "https://helpx.adobe.com/adobe-character-animator/user-guide.html"
+    ]
+  },
+  "reconstructionPolicy": "正式 docs は ZIP 本文の丸写しではなく、NON PICKUP 行、metadata、ドメイン docs、created_idea pack の要点から正常な日本語で再構成した。"
+}
