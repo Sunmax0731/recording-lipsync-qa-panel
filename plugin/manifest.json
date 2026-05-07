@@ -1,0 +1,7 @@
+{
+  "name": "recording-lipsync-qa-panel",
+  "host": "CharacterAnimator",
+  "version": "0.1.0-alpha.1",
+  "purpose": "Adobe Character Animatorの収録テイク、口パク違和感、再収録判断を記録するQAパネル",
+  "alphaScope": "テイクID、検品メモ、再収録アクションの証跡化"
+}
