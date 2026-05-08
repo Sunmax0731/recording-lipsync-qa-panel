@@ -1,7 +1,18 @@
 {
-  "name": "recording-lipsync-qa-panel",
-  "host": "CharacterAnimator",
+  "id": "com.sunmax0731.recording-lipsync-qa-panel",
+  "name": "収録・リップシンク検品パネル",
   "version": "0.1.0-alpha.1",
-  "purpose": "Adobe Character Animatorの収録テイク、口パク違和感、再収録判断を記録するQAパネル",
-  "alphaScope": "テイクID、検品メモ、再収録アクションの証跡化"
+  "manifestVersion": 5,
+  "host": {
+    "app": "CharacterAnimator",
+    "minVersion": "1.0.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "closed-alpha-panel",
+      "label": "収録・リップシンク検品パネル",
+      "mainPath": "panel.html"
+    }
+  ]
 }
